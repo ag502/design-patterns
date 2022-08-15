@@ -5,6 +5,14 @@ abstract class Duck {
 	protected abstract flyBehavior: FlyBehavior;
 	protected abstract quackBehavior: QuackBehavior;
 
+	set setFlyBehavior(fb: FlyBehavior) {
+		this.flyBehavior = fb;
+	}
+
+	set setQuackBehavior(qb: QuackBehavior) {
+		this.quackBehavior = qb;
+	}
+
 	performFly() {
 		this.flyBehavior.fly();
 	}
