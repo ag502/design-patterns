@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "lite-server"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,7 @@
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "live-server": "^1.2.2",
+    "lite-server": "^2.6.1",
     "prettier": "^2.7.1"
   }
 }
