@@ -13,6 +13,10 @@ class StereoOnWithCDCommand implements Command {
     this.stereo.setCd("깊은 밤을 날아서");
     this.stereo.setVolume(11);
   }
+
+  undo() {
+    this.stereo.off();
+  }
 }
 
 export default StereoOnWithCDCommand;

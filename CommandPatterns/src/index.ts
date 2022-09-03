@@ -26,5 +26,6 @@ remoteControl.setCommand(1, stereoOnWithCDCommand, stereoOnWithCDCommand);
 
 remoteControl.onButtonWasPressed(0);
 remoteControl.offButtonWasPressed(0);
+remoteControl.unoButtonWasPushed();
 
 remoteControl.onButtonWasPressed(1);
