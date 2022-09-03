@@ -5,7 +5,7 @@ import NYStyleCheesePizza from "../Pizza/NYStyleCheesePizza";
 
 class NYPizzaStore extends PizzaStore {
   createPizza(type: string): Pizza | null {
-    if (type === "chees") {
+    if (type === "cheese") {
       return new NYStyleCheesePizza();
     }
     return null;
