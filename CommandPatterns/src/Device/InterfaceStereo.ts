@@ -1,10 +1,10 @@
 interface Stereo {
   on(): void;
   off(): void;
-  setCd(): void;
-  setDvd(): void;
-  setRadio(): void;
-  setVolume(): void;
+  setCd(cd: string): void;
+  setDvd(dvd: string): void;
+  setRadio(radio: string): void;
+  setVolume(volume: number): void;
 }
 
 export default Stereo;
