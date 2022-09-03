@@ -1,31 +1,33 @@
 import Fan from "./InterfaceFan";
 
-class CellingFan implements Fan {
-  static readonly HIGH = 3;
-  static readonly MEDIUM = 2;
-  static readonly LOW = 1;
-  static readonly OFF = 0;
+export enum FanSpeed {
+  HIGH = 3,
+  MEDIUM = 2,
+  LOW = 1,
+  OFF = 0,
+}
 
-  private speed = CellingFan.OFF;
+class CellingFan implements Fan {
+  private speed = FanSpeed.OFF;
 
   get fanSpeed() {
     return this.speed;
   }
 
   high() {
-    this.speed = CellingFan.HIGH;
+    this.speed = FanSpeed.HIGH;
   }
 
   medium() {
-    this.speed = CellingFan.MEDIUM;
+    this.speed = FanSpeed.MEDIUM;
   }
 
   low() {
-    this.speed = CellingFan.LOW;
+    this.speed = FanSpeed.LOW;
   }
 
   off() {
-    this.speed = CellingFan.OFF;
+    this.speed = FanSpeed.OFF;
   }
 }
 
