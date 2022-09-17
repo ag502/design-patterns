@@ -9,8 +9,8 @@
 
 ###
 
-![DecoratorPattern drawio](https://user-images.githubusercontent.com/35404137/190844294-a168c314-e123-4ad9-b3c9-66145c6149e8.png)
+![DecoratorPattern1 drawio](https://user-images.githubusercontent.com/35404137/190852290-51b3f28a-be81-4ce3-a226-96f52afd6dad.png)
 
 ###
 
-![DecoratorPattern2 drawio](https://user-images.githubusercontent.com/35404137/190844955-3fc917f2-e29f-4839-a7cf-2b740e7f6cef.png)
+![DecoratorPattern2 drawio](https://user-images.githubusercontent.com/35404137/190852320-b39d0775-5e8c-48ab-8217-0ca9b9bd0fde.png)
