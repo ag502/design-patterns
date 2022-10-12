@@ -1,4 +1,4 @@
-import FlyBehavior from './Fly/FlyBehavior';
+import FlyBehavior from './strategy/Fly/FlyBehavior';
 import QuackBehavior from './Quack/QuackBehavior';
 
 abstract class Duck {

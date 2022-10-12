@@ -1,6 +1,6 @@
 import Duck from '../Duck';
 
-import FlyWithWings from '../Fly/FlyWithWings';
+import FlyWithWings from '../strategy/Fly/FlyWithWings';
 import Quack from '../Quack/Quack';
 
 class MallarDuck extends Duck {

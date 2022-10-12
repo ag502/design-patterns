@@ -1,7 +1,7 @@
 import MallarDuck from './Ducks/MallarDuck';
 import ModelDuck from './Ducks/ModelDuck';
 
-import FlyRocketPowered from './Fly/FlyRocketPowered';
+import FlyRocketPowered from './strategy/Fly/FlyRocketPowered';
 
 const mallarDuck = new MallarDuck();
 mallarDuck.performQuack();
