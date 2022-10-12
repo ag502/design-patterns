@@ -29,5 +29,7 @@ module.exports = {
 				tabWidth: 4,
 			},
 		],
+		"@typescript-eslint/no-explicit-any": false
+		
 	},
 };
