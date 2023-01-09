@@ -21,9 +21,15 @@ module.exports = {
             },
         ],
     },
-    plugins: [new HtmlWebpackPlugin(), new CleanWebpackPlugin()],
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, "index.html"),
+        }),
+        new CleanWebpackPlugin(),
+    ],
     devServer: {
         port: 3000,
+        historyApiFallback: true,
         devMiddleware: {
             writeToDisk: true,
         },
