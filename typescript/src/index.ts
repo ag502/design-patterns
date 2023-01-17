@@ -12,5 +12,5 @@ const links = patterns
 document.querySelector("#app")!.innerHTML = links;
 
 if (location.pathname === "/strategy-pattern") {
-    import("./StrategyPattern/index");
+    import("./StrategyPattern");
 }

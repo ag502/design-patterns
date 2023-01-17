@@ -1,8 +1,6 @@
-class Strategy {
-    constructor() {
-        console.log("HI IM STRATEGY");
-    }
-}
+import("./basic");
+
+class Strategy {}
 
 const StrategyInstance = new Strategy();
 
