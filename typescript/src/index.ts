@@ -1,4 +1,7 @@
-const patterns = [{ name: "Strategy Pattern", src: "/strategy-pattern" }];
+const patterns = [
+    { name: "Strategy Pattern", src: "/strategy-pattern" },
+    { name: "Observer Pattern", src: "/observer-pattern" },
+];
 
 const links = patterns
     .map(({ name, src }) => {
@@ -13,4 +16,6 @@ document.querySelector("#app")!.innerHTML = links;
 
 if (location.pathname === "/strategy-pattern") {
     import("./StrategyPattern");
+} else if (location.pathname === "/observer-pattern") {
+    import("./ObserverPattern");
 }
