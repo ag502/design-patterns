@@ -1,4 +1,4 @@
-import AddWaveDecorator from "./logExample/logDecorator/AddWaveDecorator";
+import AddWaveDecorator from "./logExample/logDecorator/addWaveDecorator";
 import LowerCaseDecorator from "./logExample/logDecorator/lowerCaseDecorator";
 import NormalLogging from "./logExample/normalLogging";
 
