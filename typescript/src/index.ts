@@ -5,6 +5,7 @@ const patterns = [
     { name: "Factory Method Pattern", src: "/factory-method-pattern" },
     { name: "Abstract Factory Pattern", src: "/abstract-factory-pattern" },
     { name: "Singleton Pattern", src: "/singleton-pattern" },
+    { name: "Command Pattern", src: "/command-pattern" },
 ];
 
 const links = patterns
@@ -30,4 +31,6 @@ if (location.pathname === "/strategy-pattern") {
     import("./AbstractFactoryPattern");
 } else if (location.pathname === "/singleton-pattern") {
     import("./SingletonPattern");
+} else if (location.pathname === "/command-pattern") {
+    import("./CommandPattern");
 }
