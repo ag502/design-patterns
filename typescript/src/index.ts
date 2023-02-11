@@ -8,6 +8,7 @@ const patterns = [
     { name: "Command Pattern", src: "/command-pattern" },
     { name: "Adapter Pattern", src: "/adapter-pattern" },
     { name: "Facade Pattern", src: "/facade-pattern" },
+    { name: "Template Method Pattern", src: "/template-method-pattern" },
 ];
 
 const links = patterns
@@ -39,4 +40,6 @@ if (location.pathname === "/strategy-pattern") {
     import("./AdapterPattern");
 } else if (location.pathname === "/facade-pattern") {
     import("./FacadePattern");
+} else if (location.pathname === "/template-method-pattern") {
+    import("./TemplateMethodPattern");
 }
